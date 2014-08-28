@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/matthewfx/MJNIndexView"
   s.screenshots      = 'https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView01.png', "https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView02.png", "https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView03.png", "https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView04.png"
   s.license          = 'MIT'
-  s.author           = { "Mateusz Nuckowski => "mat@appcowboys.com" }
+  s.author           = { "Mateusz Nuckowski" => "mat@appcowboys.com" }
   s.source           = { :git => "https://github.com/matthewfx/MJNIndexView.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '5.0'
