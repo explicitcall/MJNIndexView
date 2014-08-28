@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
  I hope more apps are going to use similar indices instead of the generic ones.
                        DESC
   s.homepage         = "https://github.com/matthewfx/MJNIndexView"
-  s.screenshots      = 'https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView01.png', "https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView02.png", "https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView03.png", "https://github.com/matthewfx/MJNIndexView/blob/master/MJNIndexView04.png"
+  s.screenshots      = 'https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView01.png', "https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView02.png", "https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView03.png", "https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView04.png"
   s.license          = 'MIT'
   s.author           = { "Mateusz Nuckowski" => "mat@appcowboys.com" }
   s.source           = { :git => "https://github.com/matthewfx/MJNIndexView.git", :tag => s.version.to_s }
