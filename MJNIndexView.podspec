@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.requires_arc = true
 
-  s.source_files = '*.h,m'
+  s.source_files = 'MJNIndexView.{h,m}'
 
-  s.public_header_files = '*.h'
+  s.public_header_files = 'MJNIndexView.h'
   s.frameworks = 'QuartzCore', 'CoreGraphics'
 end
