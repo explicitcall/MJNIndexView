@@ -601,7 +601,7 @@
         NSLog(@"Running %@ '%@'",self.class, NSStringFromSelector(_cmd));
     }
     
-    float h, s, b, a;
+    CGFloat h, s, b, a;
     if ([color getHue:&h saturation:&s brightness:&b alpha:&a])
         return [UIColor colorWithHue:h
                           saturation:s
