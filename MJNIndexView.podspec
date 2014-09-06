@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MJNIndexView"
-  s.version          = "1.0.4"
+  s.version          = "1.0.5"
   s.summary          = "MJNIndexView."
   s.description      = <<-DESC
  MJNIndexView is a highly customizable UIControl which displays an alternative index for UITableView.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.screenshots      = 'https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView01.png', "https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView02.png", "https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView03.png", "https://raw.githubusercontent.com/matthewfx/MJNIndexView/master/MJNIndexView04.png"
   s.license          = 'MIT'
   s.author           = { "Mateusz Nuckowski" => "mat@appcowboys.com" }
-  s.source           = { :git => "https://github.com/matthewfx/MJNIndexView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/explicitcall/MJNIndexView.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
